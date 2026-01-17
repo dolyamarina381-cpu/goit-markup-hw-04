@@ -376,19 +376,8 @@ Team section
 }
 
 
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-}
-
-.portfolio-card {
-    width: 360px;
-    background-color: #ffffff;
-    border: none;
-}
-
 .portfolio-title {
+    margin-bottom: 8px;
     text-align: left;
     font-weight: 500;
     font-size: 20px;
@@ -413,10 +402,7 @@ Team section
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    row-gap: 48px;
-    column-gap: 24px;
+    gap: 48px 24px;
 }
 
 .portfolio-cover-wrap {
